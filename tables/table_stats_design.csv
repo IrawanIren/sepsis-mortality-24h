@@ -1,0 +1,8 @@
+Design factor,"AUROC, full","AUROC, reduced",Difference,DeLong p,Adjusted p
+Observation shortened to 6 h,0.9115,0.8101,+0.1014,<0.001,<0.001
+Observation shortened to 12 h,0.9115,0.8419,+0.0696,<0.001,<0.001
+Both pathways removed (Bi-GRU only),0.9128,0.8508,+0.0621,<0.001,<0.001
+Static pathway removed,0.9128,0.8521,+0.0608,<0.001,<0.001
+Augmentation removed (single window),0.9115,0.8784,+0.0331,<0.001,<0.001
+Positional variety removed (repeated window),0.9115,0.9043,+0.0072,<0.001,<0.001
+Convolutional block removed,0.9128,0.9144,-0.0015,0.081,0.081

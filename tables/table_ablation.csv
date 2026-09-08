@@ -1,0 +1,5 @@
+Configuration,CNN,Static pathway,Sequence length at Bi-GRU,AUROC,AUPRC,Calibration slope,Training time (s)
+Bi-GRU only,No,No,6,0.8466 (0.0007),0.6073 (0.0026),0.987 (0.013),931
+CNN and Bi-GRU,Yes,No,3,0.8493 (0.0008),0.6137 (0.0015),0.988 (0.021),610
+Bi-GRU and static pathway,No,Yes,6,0.9108 (0.0017),0.7185 (0.0050),0.967 (0.043),1107
+"CNN, Bi-GRU and static pathway (proposed)",Yes,Yes,3,0.9094 (0.0010),0.7122 (0.0037),0.954 (0.031),804

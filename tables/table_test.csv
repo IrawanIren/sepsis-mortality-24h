@@ -1,0 +1,7 @@
+Model,AUROC,AUPRC,Brier,Calibration slope,Calibration intercept
+Proposed model,0.9020,0.7030,0.0761,0.998,+0.018
+XGBoost,0.8654,0.6571,0.0833,0.958,-0.049
+CatBoost,0.8688,0.6616,0.0826,1.006,+0.030
+Bi-LSTM,0.8554,0.6301,0.0873,0.991,+0.013
+Transformer,0.8508,0.6265,0.0875,0.957,-0.046
+First-day SOFA,0.5832,0.2449,Not applicable,Not applicable,Not applicable

@@ -1,0 +1,4 @@
+Condition,Training windows per patient,Positional variety,Description,AUROC,AUPRC
+A1,1,No,One right-aligned window,0.8720 (0.0053),0.6046 (0.0158)
+A2,19,No,Right-aligned window repeated,0.9008 (0.0003),0.6819 (0.0027)
+A3,19,Yes,Sliding windows,0.9094 (0.0005),0.7113 (0.0005)

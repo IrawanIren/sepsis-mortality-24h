@@ -1,0 +1,12 @@
+Pathway,Category,Count,Features
+Dynamic,Vital signs,7,"heart_rate, sbp, dbp, mbp, resp_rate, temperature, spo2"
+Dynamic,Laboratory,15,"glucose, bun, creatinine, platelets, bicarbonate, aniongap, inr, pt, ptt, wbc, calcium, chloride, sodium, potassium, lactate"
+Dynamic,Output,1,urine output
+Dynamic,Derived,23,hourly difference for each variable above
+Static,Demographic,1,age at admission
+Static,Severity,8,"first-day SOFA and its six components, SOFA at sepsis onset"
+Static,Comorbidity,1,Charlson comorbidity index
+Static,Neurological,1,minimum Glasgow Coma Scale
+Static,Treatment,2,"vasopressor use, invasive ventilation"
+Static,Reassigned,3,"thrombin time, fibrinogen, albumin"
+Static,Categorical,8,"sex (2 levels), race or ethnicity (6 levels)"

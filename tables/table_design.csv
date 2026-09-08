@@ -1,0 +1,9 @@
+Stage,Purpose,Configurations,Seeds,Folds
+E0,Hyperparameter search,15 random draws,1,3
+E1,Window size and stride,12 combinations,1,5
+E1b,Multi-seed confirmation,Selected configuration,5,5
+E2,Architecture ablation,4 variants,5,5
+E3,Observation window length,"3 horizons, features restricted to each",3,5
+A1-A3,Controlled augmentation,3 conditions,3,5
+C1-C2,Comparator architectures,"Bi-LSTM, Transformer",5,5
+E5,Final evaluation,All models,5,Held-out test set

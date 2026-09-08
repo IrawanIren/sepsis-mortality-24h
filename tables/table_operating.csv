@@ -1,0 +1,13 @@
+Model,Operating point,Threshold,Sensitivity,Specificity,PPV,NPV,Patients flagged,False alerts
+Proposed model,Youden,0.1264,0.840,0.788,0.416,0.965,1226,716
+Proposed model,Sens 0.80,0.2099,0.771,0.853,0.485,0.954,965,497
+XGBoost,Youden,0.1657,0.730,0.817,0.418,0.944,1061,618
+XGBoost,Sens 0.80,0.1342,0.779,0.770,0.378,0.951,1250,777
+CatBoost,Youden,0.1221,0.799,0.743,0.359,0.954,1351,866
+CatBoost,Sens 0.80,0.1360,0.783,0.773,0.383,0.952,1240,765
+Bi-LSTM,Youden,0.1258,0.789,0.734,0.348,0.951,1376,897
+Bi-LSTM,Sens 0.80,0.1377,0.774,0.761,0.368,0.949,1277,807
+Transformer,Youden,0.1447,0.753,0.759,0.360,0.945,1269,812
+Transformer,Sens 0.80,0.1466,0.746,0.763,0.361,0.944,1254,801
+First-day SOFA,Youden,7.0000,0.458,0.697,0.214,0.877,1301,1023
+First-day SOFA,Sens 0.80,3.0000,0.815,0.172,0.151,0.838,3289,2794

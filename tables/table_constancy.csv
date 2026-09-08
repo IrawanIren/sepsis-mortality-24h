@@ -1,0 +1,27 @@
+Feature,Constant over 24 h (%),Median distinct values,Pathway,Range across training folds (%)
+thrombin,100.0,1,Static,100.0 to 100.0
+fibrinogen,88.9,1,Static,88.8 to 89.1
+albumin,87.5,1,Static,87.4 to 87.8
+lactate,51.3,1,Dynamic,51.3 to 51.5
+inr,46.4,2,Dynamic,46.5 to 46.8
+pt,34.5,2,Dynamic,34.3 to 34.7
+calcium,33.9,2,Dynamic,33.7 to 34.2
+ptt,33.5,2,Dynamic,33.6 to 33.9
+creatinine,26.1,2,Dynamic,25.8 to 26.5
+temperature,22.0,2,Dynamic,21.7 to 22.1
+bicarbonate,20.8,2,Dynamic,20.5 to 21.0
+aniongap,20.0,2,Dynamic,19.8 to 20.3
+sodium,19.9,2,Dynamic,19.8 to 20.0
+bun,19.4,2,Dynamic,18.9 to 19.7
+wbc,19.1,2,Dynamic,18.8 to 19.2
+chloride,18.7,2,Dynamic,18.6 to 18.9
+platelets,18.0,2,Dynamic,17.9 to 18.2
+potassium,15.9,2,Dynamic,15.8 to 16.3
+glucose,5.1,7,Dynamic,5.1 to 5.2
+urineoutput,1.6,11,Dynamic,1.5 to 1.7
+spo2,1.5,8,Dynamic,1.5 to 1.6
+mbp,0.2,18,Dynamic,0.1 to 0.2
+heart_rate,0.2,16,Dynamic,0.2 to 0.3
+dbp,0.2,18,Dynamic,0.2 to 0.2
+resp_rate,0.2,12,Dynamic,0.2 to 0.3
+sbp,0.2,20,Dynamic,0.2 to 0.2
