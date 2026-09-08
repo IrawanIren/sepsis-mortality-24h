@@ -32,7 +32,7 @@ All reported figures are listed in [docs/RESULTS.md](docs/RESULTS.md).
 ## Data availability
 
 This study uses **MIMIC-IV v2.1**, governed by the
-[PhysioNet Credentialed Health Data Use Agreement](https://physionet.org/content/mimiciv/view-dua/).
+[PhysioNet Credentialed Health Data Use Agreement](https://physionet.org/content/mimiciv/view-dua/2.1/).
 
 **No patient-level data is redistributed here.** Aggregate results are
 provided in `results/` and `tables/`, and the figures in `figures/`, so
@@ -98,7 +98,7 @@ The data partition is not distributed but is fully reproducible:
 ## Installation
 
 ```bash
-git clone https://github.com/USERNAME/sepsis-mortality-24h.git
+git clone https://github.com/IrawanIren/sepsis-mortality-24h.git
 cd sepsis-mortality-24h
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
